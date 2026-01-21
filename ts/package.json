@@ -19,6 +19,22 @@
   ],
   "author": "Limi",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/R894/LimbusTeamCodes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/R894/LimbusTeamCodes/issues"
+  },
+  "homepage": "https://github.com/R894/LimbusTeamCodes/tree/main/ts#readme",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "devDependencies": {
     "@types/jest": "^29.0.0",
     "@types/node": "^20.0.0",
