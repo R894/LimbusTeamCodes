@@ -1,6 +1,6 @@
 {
   "name": "limbus-formation-deck",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TypeScript library for encoding and decoding Limbus Company formation deck codes",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
