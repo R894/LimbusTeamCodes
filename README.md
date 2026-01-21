@@ -11,32 +11,6 @@ This library replicates the assembly-level logic from Limbus Company's formation
 
 ## Quick Start
 
-### Python
-
-```python
-from py.formation_deck import FormationDeckCode
-
-# Decode
-result = FormationDeckCode.decode("H4sIAAAAAAAACnMMdEx3BAInR2cQ5ejq6AmmqSLsaGsLANDKykhgAAAA")
-formations, had_errors = result
-print(formations)
-
-# Encode
-from py.models import FormationDetailInfo
-formations = [
-    FormationDetailInfo(
-        slot=1,
-        personality_id=10101,
-        ego1=20101,
-        ego2=0, ego3=0, ego4=0, ego5=0,
-        enabled=True,
-        slot_type=1
-    )
-]
-encoded = FormationDeckCode.encode(formations)
-print(encoded)
-```
-
 ### TypeScript
 
 ```bash
@@ -68,6 +42,32 @@ const formations = [
 ];
 const encoded = FormationDeckCode.encode(formations);
 console.log(encoded);
+```
+
+### Python
+
+```python
+from py.formation_deck import FormationDeckCode
+
+# Decode
+result = FormationDeckCode.decode("H4sIAAAAAAAACnMMdEx3BAInR2cQ5ejq6AmmqSLsaGsLANDKykhgAAAA")
+formations, had_errors = result
+print(formations)
+
+# Encode
+from py.models import FormationDetailInfo
+formations = [
+    FormationDetailInfo(
+        slot=1,
+        personality_id=10101,
+        ego1=20101,
+        ego2=0, ego3=0, ego4=0, ego5=0,
+        enabled=True,
+        slot_type=1
+    )
+]
+encoded = FormationDeckCode.encode(formations)
+print(encoded)
 ```
 
 ## How It Works Under the Hood
