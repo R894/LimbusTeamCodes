@@ -39,6 +39,10 @@ print(encoded)
 
 ### TypeScript
 
+```bash
+npm install limbus-formation-deck
+```
+
 ```typescript
 import { FormationDeckCode } from "limbus-formation-deck";
 
@@ -282,24 +286,6 @@ LimbusTeamCodes/
             ├── bool-converter.ts
             ├── int-converter.ts
             └── text-converter.ts
-```
-
-## Testing
-
-### Python
-
-```bash
-cd py
-pytest
-```
-
-### TypeScript
-
-```bash
-cd ts
-npm install
-npm run build
-npx ts-node example.ts
 ```
 
 ## License

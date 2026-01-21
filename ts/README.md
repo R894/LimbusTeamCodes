@@ -5,7 +5,7 @@ TypeScript library for encoding and decoding Limbus Company formation deck codes
 ## Installation
 
 ```bash
-npm install
+npm install limbus-formation-deck
 ```
 
 ## Usage
