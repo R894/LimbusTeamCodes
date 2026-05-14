@@ -1,11 +1,11 @@
 import pytest
-from converters import (
+from .converters import (
     IntListBase64Converter,
     TextCompressionUtility,
     BoolListBase64Converter
 )
-from models import FormationDetailInfo
-from formation_deck import FormationDeckCode
+from .models import FormationDetailInfo
+from .formation_deck import FormationDeckCode
 
 
 class TestIntListBase64Converter:

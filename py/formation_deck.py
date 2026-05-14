@@ -5,12 +5,12 @@ Provides functionality to encode and decode Limbus Company formation deck codes.
 
 from typing import List, Tuple
 
-from converters import (
+from .converters import (
     IntListBase64Converter,
     TextCompressionUtility,
     BoolListBase64Converter
 )
-from models import FormationDetailInfo
+from .models import FormationDetailInfo
 
 
 class FormationDeckCode:
